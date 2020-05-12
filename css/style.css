@@ -1,0 +1,53 @@
+
+
+  /*welcome to dashboard class= admindashboard */
+
+.admindashboard {
+
+                background-color: #530602;
+                color: #fff; 
+                margin-right: 50px;
+                margin-left: 50px;
+                height: 130px;
+                line-height: 130px;  
+                text-align: center;
+                font-size: 30px;
+            
+
+                 }
+
+    h4 a  {
+
+             text-decoration:none;
+            color: #fff;
+         } 
+
+h4 a:hover{
+
+        color:red;
+
+
+        }                  
+
+  /*table class = dash*/               
+
+ .dash  {
+
+         background-color:#1dfe;
+         margin-right: 50px;
+         margin-left: 50px;
+         height: 170px;
+         font-size: 30px;
+
+        } 
+
+  table a{
+
+         text-decoration: none;
+
+      }  
+  table a:hover{
+
+                  color:#fff000;   
+                 
+               }                      

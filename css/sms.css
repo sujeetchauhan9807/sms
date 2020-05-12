@@ -1,0 +1,126 @@
+
+/*full body*/
+
+body{
+	margin: 0;
+	padding: 0;
+	background: pink;
+
+}
+
+  /* header and div*/
+
+header>div{
+
+	background-image: url("head1.jpg");
+	display: flex;
+}
+
+  /*logo csjmu*/
+
+	.logo{
+
+		height: 122px;
+		width: 110px;
+
+	}
+
+     /*student management system*/
+   
+	h1{
+	
+		font-family: arial;
+		font-size: 45px;
+		margin-left: 20px;
+	}
+
+
+	/*menu bar and dropdown function*/
+
+  #menu ul{
+
+      
+        list-style: none;
+        margin: 0;
+        padding: 0;
+              
+
+
+     }
+      
+#menu ul li{
+
+       
+      /*  border: 2px solid white;*/
+        height: 50px;
+        line-height: 50px;
+        width: 250px;  
+        float: left;
+        margin-left: 5px;
+        text-align: center;
+        position: relative;
+         
+
+
+       } 
+#menu ul li a{
+               
+                background-color: #62C75B;
+               text-decoration: none;
+               color: white;
+              display: block;
+
+            }
+#menu ul li a:hover{
+
+                     background-color: #0F6109;
+                         
+                    
+
+                  }
+ #menu ul ul
+ {
+
+ 	position: absolute;
+ 	display: none;
+ } 
+ #menu ul li:hover > ul
+ {
+     display: block;
+
+ 
+ }                
+
+
+
+li a:hover:not(.active) {
+    background-color: #0F6109;
+}
+
+.active {
+    background-color: pink;
+    color: black;
+
+}                 
+
+	/*admin login*/
+	 #admin a{
+   text-decoration: none;
+ 
+	}
+
+  /* admin a hover*/
+ a:hover{
+
+  	color: red;
+
+
+  }
+
+  
+
+
+ 
+
+
+
